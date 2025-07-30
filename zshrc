@@ -72,3 +72,6 @@ export EDITOR=code
 export PYTHONBREAKPOINT=ipdb.set_trace
 export BROWSER="/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
 export GH_BROWSER="'/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH=/usr/local/cuda-12.9/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-12.9/lib64:$LD_LIBRARY_PATH
